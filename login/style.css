@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;800&display=swap');
+
+:root {
+    --background:#fff;
+    --primary:#FAC7DD;
+    --secondary:#C6F7FB;
+    --naranj:#FEC265;
+    --verde: #0B483E;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+
+section{
+    padding: 3rem 2rem;
+    background-color: var(--secondary);
+}
+
+.btn {
+    display: inline-block;
+    border-radius: .5rem;
+    border: none;
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    color: var(--verde);
+    cursor: pointer;
+    padding: 1rem 3rem;
+    background: var(--primary);
+}
+.btn:hover {
+    background: var(--background);
+    border: 1px solid var(--verde);
+    color: var(--verde);
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.form-container form{
+    padding: 2rem;
+    border: .5rem;
+    border: var(--verde);
+    background-color: var(--verde);
+    box-shadow: var(--verde);
+    width: 50rem;
+    text-align: center;
+}
+
+.form-container form h3 {
+font-size: 2.5rem;
+text-transform: uppercase;
+color: var(--primary);
+margin-bottom: 1rem;
+}
+
+.form-container form img {
+    width: 200px;
+    padding-bottom: 20px;
+}
+
+.form-container form .box{
+    width: 100%;
+    padding: 1.2rem 1.4rem;
+    font-size: 1.8rem;
+    color: #000;
+    border: var(--verde);
+    background-color: var(--background);
+    margin: 1rem 0;
+    border-radius: .5rem;
+}
+
+.form-container form p{
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    color: var(--background);
+}
+.form-container form p a{
+    color: var(--primary);
+}
+.form-container form p a:hover {
+    text-decoration: underline;
+    color: var(--background);
+}

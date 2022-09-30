@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Friend Landing</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="/assets/styles.css">
+<link rel="stylesheet" href="/assets/mediaquerys.css">
+</head>
+
+<body>
+    <header>
+
+            <input type="checkbox" name="" id="toggler">
+            <label for="toggler" class="fas fa-bars"></label>
+            
+      <img class="logo" src="/assets/images/logo.png" alt="logo">
+    <nav class="navbar">
+        <a href="#hero">Home</a>
+        <a href="#products">Products</a>
+        <a href="/login/login.html">Login</a>
+    </nav>
+    <div class="icons">
+        <a href="#products" class="fas fa-heart"></a>
+        <a href="/login/login.html" class="fas fa-user"></a>
+    </div>
+
+
+
+
+            <div class="cart-label">
+                <i class="fa-solid fa-cart-shopping cart-icon"></i>
+            </div>
+
+            <div class="cart">
+                <h2>Your Plants friends</h2>
+                <div class="cart-container">
+
+                </div>
+
+                <span class="divider"></span>
+
+                <div class="cart-total">
+                    <p>Total: $</p>
+                    <span class="total">$1500</span>
+                </div>
+                <button class="btn-buy">Buy</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+                   <!-- hero section -->
+        <section id="hero">
+            <div class="hero-content">
+                <div class="friends">
+                    <h4>plants are friends</h4>
+                </div>
+                <h3>Plants reduce stress level</h3>
+                <span>Getting one it's the first step</span>
+                <p>get your new friend</p>
+            <div class="btn-content">
+                <button class="btn-hero"><a href="#products">Buy</a></button>
+            </div>
+        </section>
+
+        <!-- abput section -->
+        
+        <section class="about" id="about">
+            <h1 class="heading"> Our collection of <span>Plants</span> </h1>
+            <div class="row">
+                <div class="video-container">
+                    <video src="/assets/images/production ID_4503781.mp4" loop autoplay muted></video>
+                </div>
+                <div class="content">
+                    <h3>Did you know that plants are living 
+                        and self-sufficient beings?</h3>
+                       <p> that is, they can feed themselves and grow on their own!
+                        this makes plants the <span>BEST</span> friend a human can have.
+                           <p><span>Login for more info </span></p>
+                         <a href="/login/login.html" class="btn">Login</a>
+                </div>
+            </div>
+        </section>
+    
+                              <!-- category -->
+
+        <section id="products">
+            <h2>Plant Shop</h2>
+            <div class="categories">
+                <button class="category active" data-category="all">All</button>
+                <button class="category" data-category="cactus">Cactus</button>
+                <button class="category" data-category="outdoor">Outdoor</button>
+                <button class="category" data-category="indoor">Indoor</button>
+                <button class="category" data-category="seeds">Seeds</button>
+            </div>
+        
+
+            <!-- products -->
+            <div class="products-container">
+
+             </div>
+             <!-- <button class="btn-load">More</button> -->
+        </section>
+
+        <!-- contact -->
+        <section id="contact">
+            <h1 class="heading"> Contact us</h1>
+            <div class="row">
+                <form action="" method="post">
+               <input class="box" type="text" placeholder="name">
+               <input class="box"  type="email"  placeholder="email" >
+               <input class="box" type="number" -placeholder="number">
+               <textarea  class="box" name=""  placeholder="message" id="" cols="30" rows="10">
+               </textarea>
+                 <input type="submit" value="send message" class="btn-form">
+                </form>
+            </div>
+        </section>
+    </main>
+<footer>
+    <div>
+        <ul class="footer-links">
+            <li><a href="/login/login.html">Login</a></li>
+            <li><a href="/register/register.html">Create account</a></li>
+            <li><a href="#contact">Contact us</a></li>
+        </ul>
+    </div>
+    <p>Created By G. Cravero | All Rights Reserved</p>
+</footer>
+    
+<script src="/assets/data.js"></script>
+<script src="/assets/index.js"></script>
+</body>
+</html>
